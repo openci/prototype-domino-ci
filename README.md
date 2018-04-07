@@ -15,14 +15,15 @@ A prototype to trigger CI build systems upon upstream changes
 - **DominoResult** - When a project reports back its status to DominoArbiter
 - **DominoEventTree** - A tree of pipeline dependencies and events from different projects. 
 
-## Rules
+## Process Flow - Step by Step
 
-- There is only one root Domino in the DominoTree.
+- There can only be one root Domino in the DominoEventTree.
 - If the root Domino's pipeline fails, the DominoArbiter is not notified
 - If the root Domino's pipeline succeeds, the DominoArbiter is sent a DominoEvent with the following:
   - A token proving the Domino's identity
   - The pipeline status -> "SUCCESS"
   - Metadata - Branch / Tag / Name of Pipeline / Commit sha / Last commit message
+  B
   - Links to repo, pipeline page, and owners file
   - List of artifacts that were generated
 - The DominoArbiter creates a global DominoEventTree ID and sends it back to the root Domino for logging purposes
