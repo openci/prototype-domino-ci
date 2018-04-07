@@ -1,5 +1,7 @@
 # DominoCI
 
+## Note: this is all conceptual and exploratory
+
 A prototype to trigger CI build systems upon upstream changes
 
 <img src="doc/images/arch-simple.png" alt="Architecture Diagram - Simple" style="width: 600px;"/>
@@ -79,7 +81,7 @@ A prototype to trigger CI build systems upon upstream changes
 - Last successful build combo
 - Domino build logs
   - Summary (statistical xx% children failed)
-  - First level
+  - First level - Direct dependents
   - Tree explore
 - Dependency tree
 - Owners / contact details
