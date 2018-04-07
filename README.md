@@ -1,9 +1,8 @@
-# DominoEffect
+# DominoCI
 
 A prototype to trigger CI build systems upon upstream changes
 
-![Architecture Diagram - Simple](doc/images/arch-simple.png)
-
+<img src="doc/images/arch-simple.png" alt="Architecture Diagram - Simple" style="width: 600px;"/>
 
 ## Definitions
 
