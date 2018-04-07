@@ -2,6 +2,9 @@
 
 A prototype to trigger CI build systems upon upstream changes
 
+![Architecture Diagram - Simple](doc/images/arch-simple.png)
+
+
 ## Definitions
 
 - **DominoArbiter** - The central orchestrator 
