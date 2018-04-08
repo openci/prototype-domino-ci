@@ -15,6 +15,10 @@ A prototype to trigger CI build systems upon upstream changes
 - **DominoResult** - When a project reports back its status to DominoArbiter
 - **DominoEventTree** - A tree of pipeline dependencies and events from different projects. 
 
+## Data Structures
+
+See [DataStructures.md](DataStructures.md)
+
 ## Process Flow - Step by Step
 
 - There can only be one root Domino in the DominoEventTree.
